@@ -1,4 +1,4 @@
-// 11. Hacer un programa para ingresar tres nÃºmeros y luego mostrarlos ordenados de menor a mayor.
+// 11. Hacer un programa para ingresar tres números y luego mostrarlos ordenados de menor a mayor.
 
 #include <iostream>
 
@@ -17,25 +17,31 @@ int main()
     cout << "Ingrese el tercer numero: ";
     cin >> C;
 
-    if (A < B && B < C) {
+    if (A < B && B < C)
+    {
         cout << "\nEl orden es: " << A << " - " << B << " - " << C << endl;
     }
-    else if (A < C && C < B) {
+    else if (A < C && C < B)
+    {
         cout << "\nEl orden es: " << A << " - " << C << " - " << B << endl;
     }
-    else if (B < A && A < C) {
+    else if (B < A && A < C)
+    {
         cout << "\nEl orden es: " << B << " - " << A << " - " << C << endl;
     }
-    else if (B < C && C < A) {
+    else if (B < C && C < A)
+    {
         cout << "\nEl orden es: " << B << " - " << C << " - " << A << endl;
     }
-    else if (C < A && A < B) {
+    else if (C < A && A < B)
+    {
         cout << "\nEl orden es: " << C << " - " << A << " - " << B << endl;
     }
-    else if (C < B && B < A) {
+    else if (C < B && B < A)
+    {
         cout << "\nEl orden es: " << C << " - " << B << " - " << A << endl;
     }
 
-    
+
     return 0;
 }

@@ -1,5 +1,5 @@
-// 10. Hacer un programa que solicite cuatro nÃºmeros y emitir un cartel aclaratorio si son todos iguales 
-//     entre sÃ­, caso contrario, no emitir nada.
+// 10. Hacer un programa que solicite cuatro números y emitir un cartel aclaratorio si son todos iguales 
+//     entre sí, caso contrario, no emitir nada.
 
 #include <iostream>
 
@@ -20,7 +20,8 @@ int main()
     cout << "Ingrese el cuarto numero: ";
     cin >> D;
 
-    if (A == B && B == C && C == D) {
+    if (A == B && B == C && C == D)
+    {
         cout << "\nTodos los numeros son iguales." << endl;
     }
 

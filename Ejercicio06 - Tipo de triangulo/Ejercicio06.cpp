@@ -1,7 +1,7 @@
-// 6. Hacer un programa para ingresar por teclado la longitud de los tres lados de un tri√°ngulo y que luego 
-//    determine e informe con un cartel aclaratorio a qu√© tipo de tri√°ngulo corresponde:
-//       a. Equil√°tero: cuando los tres lados sean iguales.
-//       b. Is√≥sceles: cuando dos de los tres lados sean iguales.
+// 6. Hacer un programa para ingresar por teclado la longitud de los tres lados de un tri·ngulo y que luego 
+//    determine e informe con un cartel aclaratorio a quÈ tipo de tri·ngulo corresponde:
+//       a. Equil·tero: cuando los tres lados sean iguales.
+//       b. IsÛsceles: cuando dos de los tres lados sean iguales.
 //       c. Escaleno: cuando todos los lados sean distintos.
 
 #include <iostream>
@@ -21,13 +21,16 @@ int main()
     cout << "Introduzca la longitud del tercer lado: ";
     cin >> L3;
 
-    if (L1 == L2 && L2 == L3) {
+    if (L1 == L2 && L2 == L3)
+    {
         cout << "\nTriangulo equilatero" << endl;
     }
-    else if (L1 != L2 && L2 != L3 && L3 != L1) {
+    else if (L1 != L2 && L2 != L3 && L3 != L1)
+    {
         cout << "\nTriangulo escaleno" << endl;
     }
-    else {
+    else
+    {
         cout << "\nTriangulo isosceles" << endl;
     }
 

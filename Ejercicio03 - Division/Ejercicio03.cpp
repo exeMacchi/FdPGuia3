@@ -1,4 +1,5 @@
-// 3. Hacer un programa para ingresar dos nÃºmeros. Si el segundo es distinto de cero, calcular la divisiÃ³n 
+
+// 3. Hacer un programa para ingresar dos números. Si el segundo es distinto de cero, calcular la división 
 //    del primero por el segundo y mostrar el resultado por pantalla; caso contrario, emitir un cartel 
 //    aclarando que no se puede dividir por cero.
 
@@ -17,11 +18,13 @@ int main()
     cout << "Ingresar el segundo numero: ";
     cin >> B;
 
-    if (B != 0) {
+    if (B != 0)
+    {
         R = A / B;
         cout << "\nEl resultado es: " << R << endl;
     }
-    else {
+    else
+    {
         cout << "\nError: no es posible dividir por 0." << endl;
     }
 

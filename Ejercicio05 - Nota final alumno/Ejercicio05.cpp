@@ -1,10 +1,10 @@
 // 5. Hacer un programa que solicite el ingreso de las notas del primer parcial y del segundo parcial de 
-//    una alumna de programaci√≥n. El programa deber√° analizar las notas y emitir la situaci√≥n de la alumna 
-//    seg√∫n la siguiente escala:
-//      a. Si tiene 8 o m√°s en ambos parciales, emitir ‚Äúaprobaci√≥n directa‚Äù.
-//      b. Si no tiene 8 o m√°s en ambos pero tiene aprobados ambos parciales (se aprueba con 6 o m√°s), 
-//         emitir ‚Äúrinde examen final‚Äù.
-//      c. Si tiene menos de 6 en alguno de los dos parciales, emitir ‚Äúdebe recuperar‚Äù.
+//    una alumna de programaciÛn. El programa deber· analizar las notas y emitir la situaciÛn de la alumna 
+//    seg˙n la siguiente escala:
+//      a. Si tiene 8 o m·s en ambos parciales, emitir ìaprobaciÛn directaî.
+//      b. Si no tiene 8 o m·s en ambos pero tiene aprobados ambos parciales (se aprueba con 6 o m·s), 
+//         emitir ìrinde examen finalî.
+//      c. Si tiene menos de 6 en alguno de los dos parciales, emitir ìdebe recuperarî.
 //    El programa debe emitir solo un cartel, el que corresponda.
 
 #include <iostream>
@@ -22,13 +22,16 @@ int main()
     cout << "Ingrese la segunda nota: ";
     cin >> B;
 
-    if (A >= 8 && B >= 8) {
+    if (A >= 8 && B >= 8)
+    {
         cout << "\nAprobacion directa." << endl;
     }
-    else if (A >= 6 && B >= 6) {
+    else if (A >= 6 && B >= 6)
+    {
         cout << "\nExamen final." << endl;
     }
-    else {
+    else
+    {
         cout << "\nDebe recuperar la materia." << endl;
     }
 

@@ -1,11 +1,11 @@
-// 8. El negocio de desinfectante antes mencionado vende, adem√°s, detergente suelto, y los precios se aplican 
-//    seg√∫n la siguiente escala:
+// 8. El negocio de desinfectante antes mencionado vende, adem·s, detergente suelto, y los precios se aplican 
+//    seg˙n la siguiente escala:
 //       a. 25 ARS por litro los primeros 50 litros.
 //       b. 20 ARS por litro si la venta es de 51 a 200 litros.
 //       c. 15 ARS por litro si la venta es de 201 a 500 litros.
-//       d. 10 ARS por litro si la venta es de m√°s de 500 litros.
-//    Adem√°s, si paga en efectivo, tiene un adicional del 10 % sobre el importe final.
-//    Hacer un programa que solicite la cantidad de litros vendidos y el tipo de pago (ingresar√° 1 si paga en
+//       d. 10 ARS por litro si la venta es de m·s de 500 litros.
+//    Adem·s, si paga en efectivo, tiene un adicional del 10 % sobre el importe final.
+//    Hacer un programa que solicite la cantidad de litros vendidos y el tipo de pago (ingresar· 1 si paga en
 //    efectivo y 0 con cualquier otro medio de pago) y calcule y emita por pantalla el monto final a abonar 
 //    por el cliente.
 
@@ -30,23 +30,29 @@ int main()
     cout << "Tipo de pago (1 = efectivo / 0 = otro): ";
     cin >> TP;
 
-    if (CL > 500) {
+    if (CL > 500)
+    {
         MP = CL * P4;
     }
-    else if (CL <= 500 && CL > 200) {
+    else if (CL <= 500 && CL > 200)
+    {
         MP = CL * P3;
     }
-    else if (CL <= 200 && CL > 50) {
+    else if (CL <= 200 && CL > 50)
+    {
         MP = CL * P2;
     }
-    else {
+    else
+    {
         MP = CL * P1;
     }
 
-    if (TP == 1) {
+    if (TP == 1)
+    {
         MF = MP * Ad;
     }
-    else {
+    else
+    {
         MF = MP;
     }
 

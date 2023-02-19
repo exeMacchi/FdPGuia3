@@ -1,5 +1,5 @@
-// 1. Hacer un programa que solicite el ingreso de un nÃºmero y que luego emita un cartel por pantalla aclarando 
-//    si el mismo es mÃºltiplo de 5.
+// 1. Hacer un programa que solicite el ingreso de un número y que luego emita un cartel por pantalla aclarando 
+//    si el mismo es múltiplo de 5.
 
 #include <iostream>
 
@@ -14,10 +14,12 @@ int main()
     cout << "Ingrese un numero: ";
     cin >> N;
 
-    if (N % 5 == 0) {
+    if (N % 5 == 0)
+    {
         cout << "\n" << N << " es multiplo de 5." << endl;
     }
-    else {
+    else
+    {
         cout << "\n" << N << " no es multiplo de 5." << endl;
     }
 

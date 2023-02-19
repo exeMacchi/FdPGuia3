@@ -1,8 +1,8 @@
-// 2. Hacer un programa que solicite el ingreso de dos nÃºmeros y luego calcular:
+// 2. Hacer un programa que solicite el ingreso de dos números y luego calcular:
 //       a. La resta si el primero es mayor que el segundo.
 //       b. La suma si son iguales.
 //       c. El producto si el primero es menor.
-//    Se deberÃ¡ emitir un cartel por pantalla con el resultado correspondiente.
+//    Se deberá emitir un cartel por pantalla con el resultado correspondiente.
 
 #include <iostream>
 
@@ -19,13 +19,16 @@ int main()
     cout << "Ingrese el segundo numero: ";
     cin >> B;
 
-    if (A > B) {
+    if (A > B)
+    {
         R = A - B;
     }
-    else if (A < B) {
+    else if (A < B)
+    {
         R = A * B;
     }
-    else {
+    else
+    {
         R = A + B;
     }
 

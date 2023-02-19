@@ -1,4 +1,4 @@
-// 7. Hacer un programa para ingresar 4 nÃºmeros. Luego analizar e informar por pantalla si los mismos 
+// 7. Hacer un programa para ingresar 4 números. Luego analizar e informar por pantalla si los mismos 
 //    se encuentran ordenados de forma decreciente.
 
 #include <iostream>
@@ -20,10 +20,12 @@ int main()
     cout << "Ingrese el cuarto numero: ";
     cin >> D;
 
-    if (A > B && B > C && C > D) {
+    if (A > B && B > C && C > D)
+    {
         cout << "\nLos numeros estan en orden descendiente." << endl;
     }
-    else {
+    else
+    {
         cout << "\nLos numeros no estan en orden descendiente." << endl;
     }
 
